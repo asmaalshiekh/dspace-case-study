@@ -37,16 +37,16 @@ A professional portfolio case study for DSpace repository# دراسة حالة: 
 - **إدارة الأصول:** رفع وتجربة عينات حقيقية لمصادر معلومات متعددة الصيغ (PDF, Webm Videos) واختبار محرك الاسترجاع والبحث الذكي[cite: 5, 8].
 
 ---
-
 ## 4. المخطط الهندسي وسير العمل (System Architecture)
-[ المستفيد / الباحث ]
-│
-▼ (HTTP Request / XMLUI / JSPUI)
-[ خادم الويب Apache Tomcat 8 ]
-│
-▼ (JDBC / Database Connection)
-[ قاعدة البيانات PostgreSQL (إدارة الفهارس والأصول الرقمية) ]
 
+```text
+ [ المستفيد / الباحث ]
+         │
+         ▼ (HTTP Request / XMLUI / JSPUI)
+ [ خادم الويب Apache Tomcat 8 ]
+         │
+         ▼ (JDBC / Database Connection)
+ [ قاعدة البيانات PostgreSQL (إدارة الفهارس والأصول الرقمية) ]
 ---
 
 ## 5. النتائج والأثر (Results)
